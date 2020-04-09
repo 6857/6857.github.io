@@ -1,9 +1,3 @@
-/* 
-    
-
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-*/
-
 html {
     background-color: #161616;
 }
@@ -12,11 +6,34 @@ body {
     width: 100%;
     font-family: 'Roboto', sans-serif;
     color: #ccc;
-    font-size: 15px;
+    font-size: 14px;
+    line-height: 21px;
+}
+.wrappp {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    width: 80%;
+    text-align: left;
+}
+.wrappp a {
+    color: coral;
+}
+.wrappp a:hover {
+    color: rgb(255, 176, 147);
 }
 .note {
     font-family: 'Share Tech Mono', monospace;
-    color: lightpink;
+    color: rgb(255, 176, 147);
+}
+.wrappp u {
+    color: #fff;
+}
+.subnote {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px;
+    margin-top: -4px;
+    margin-bottom: 5px;
+    color: #ccc;
 }
 table {
     position: absolute;
@@ -29,32 +46,78 @@ table {
     vertical-align: top;
     padding: 10px;
     font-family: 'Share Tech Mono', monospace;
+    width: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 #navbar img {
     margin: auto;
+    margin-top:5px;
 }
 #navbar .textbar {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     margin: 7px auto;
 }
-#tbody {
+#navbar .textbar a {
+    text-decoration: none;
+    font-weight: 400;
+}
+#navbar .textbar a:hover {
+    text-decoration: none;
+}
+#tablebody {
     padding-left:15%;
+    vertical-align: top;
+    padding-top: 10%;
+}
+.notice {
+    width: 80%;
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding: 0px 17px 0px 17px;
+    background: #20202e;
+    border: 1px solid #232355;
+    border-radius: 10px;
+    color: rgb(218, 218, 218);
+    font-family: monospace;
+}
+.notice b {
+    color: #fd3b3b;
+}
+.notice b.title {
+    letter-spacing: 7px;
+    font-size: 20px;
 }
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: rgb(255, 255, 255);
     transition: all 0.5s ease;
 }
 a:hover {
-    text-decoration: none;
-    color: #fc5788;
+    text-decoration: underline;
+    color: coral;
     transition: all 0.5s ease;
 }
 h1 {
     font-family: 'Share Tech Mono', monospace;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: normal;
     margin: 0px;
+    color: #fff;
+}
+h1 a {
+    text-decoration: none;
+}
+h1 a:hover {
+    text-decoration: none;
+}
+h2 {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 17px;
+    font-weight: normal;
+    margin-top: 27px;
+    margin-bottom: 1px;
     color: #fff;
 }
