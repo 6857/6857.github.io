@@ -21,6 +21,13 @@ body {
 .wrappp a:hover {
     color: rgb(255, 176, 147);
 }
+.wrappp h2 a {
+    text-decoration: none!important;
+    color: #fff;
+}
+.wrappp h2 a:hover {
+    color: #fff
+}
 .note {
     font-family: 'Share Tech Mono', monospace;
     color: rgb(255, 176, 147);
@@ -132,4 +139,33 @@ h2 {
     float: right;
     font-size: 12px;
     color: #4e4e4e;
+}
+.changelog {
+    text-align: right;
+    width: 15%;
+    vertical-align: bottom;
+}
+.changelog div {
+    position: fixed;
+    bottom:0;
+    left:11%;
+    font-family: monospace;
+    font-size: 11px;
+    color: #acacac;
+    border-right: 1px solid rgb(255, 238, 0);
+    padding-right: 5px;
+    padding-bottom: 5px;
+    width: 10%;
+}
+.changelog h1 {
+    font-size: 17px;
+    color: rgb(255, 238, 0);
+}
+.changelog a {
+    text-decoration: none;
+}
+.changelog h2 {
+    font-size: 12px;
+    margin-top: 0px;
+    color: white;
 }
