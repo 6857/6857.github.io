@@ -41,6 +41,13 @@ table {
     height: 100%;
     border-collapse: collapse;
 }
+
+table .tiny{
+    position: relative;
+    height: 10%;
+    width: 80%;
+    border-collapse: collapse;
+}
 #navbar {
     background-color: rgb(39, 39, 39);
     vertical-align: top;
@@ -69,7 +76,6 @@ table {
 #tablebody {
     padding-left:15%;
     vertical-align: top;
-    padding-top: 10%;
 }
 .notice {
     width: 80%;
@@ -120,4 +126,10 @@ h2 {
     margin-top: 27px;
     margin-bottom: 1px;
     color: #fff;
+}
+.updatedon {
+    font-family: 'Share Tech Mono', monospace;
+    float: right;
+    font-size: 12px;
+    color: #4e4e4e;
 }
